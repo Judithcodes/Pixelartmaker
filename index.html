@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.3.1.min.js"> </script>
+</head>
+<body>
+    <h1>Hua_Lee's: Pixel Art Maker</h1>
+    <h5> An awesome workspace to create any art piece you desire!!!</h5>
+
+    <h2>Choose Grid Size</h2>
+    <p> Choose a number between 1 and 30. </p>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" max="30" value="1" required>
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" max="30"  value="1" required>
+        <input type="submit">
+      </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+    
+    <script src="designs.js"></script>
+</body>
+</html>

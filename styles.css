@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family:montana;
+    font-style: oblique;
+    font-size: 40px;
+    margin: 0.2em;
+    color:#eb1d1d;
+    border:10px;
+    border-style:groove;
+    border-color: darksalmon;
+    background-color:#bcf9ee;
+    border-spacing: 2px;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: brown;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+p, h5{
+    color:#7e5342
+}
+form{
+    color:chocolate;
+}
+
+
+table,
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
+input[type=number] {
+    width: 6em;
+}
